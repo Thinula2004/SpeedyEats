@@ -1,0 +1,12 @@
+Should use dataTable and sqlDataAdapter to access the selected values from the database (LoginForm)
+Should reset the primary key when new record is added (Add_user_form)
+
+To only get integer inputs to a textbox : (On the textbox's Key press event)
+>>>if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+
+
+To select a combobox item on the page load: 
+>>>combobox1.SelectedIndex = 0;
